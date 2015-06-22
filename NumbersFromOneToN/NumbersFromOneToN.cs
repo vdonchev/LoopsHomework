@@ -1,6 +1,6 @@
 ﻿using System;
 
-class NumbersNotDivisibleBy3And7
+class NumbersFromOneToN
 {
     static void Main()
     {
@@ -9,13 +9,8 @@ class NumbersNotDivisibleBy3And7
 
         for (int i = 1; i <= num; i++)
         {
-            if (i % 3 == 0 || i % 7 == 0)
-            {
-                continue;
-            }
-            Console.Write("{0,-3}", i);
+            Console.Write("{0,-2}", i);
         }
-
         Console.WriteLine();
     }
 }

@@ -4,7 +4,7 @@ class RandomNumbersInGivenRange
 {
     static void Main()
     {
-        Console.WriteLine("Insert 3 integers n, min and max (min <= max).");
+        Console.WriteLine("Insert 3 integers: n, min and max (min <= max).");
         Console.Write("n: ");
         int num = int.Parse(Console.ReadLine());
         Console.Write("min: ");
